@@ -22,7 +22,7 @@ def process_user_selection(option):
             input("Press enter to continue")
             return
     elif option == 2:
-        print("\nPlease enter day of the week as Mon, Tue, ...")
+        print("\nPlease enter a day of the week as Mon, Tue, ...")
         input_day_of_week = input("Day of week: ")
         try:
             # based on the user's input, map the day of the week to it's index using date_to_day_dict
@@ -74,7 +74,7 @@ def search():
     while True:
         print("\nPlease select an option and press enter to continue:")
         print("1. Provide Date (DD/MM/YYYY)")
-        print("2. Provide day of the week (Mon, Tue, ...)")
+        print("2. Provide a day of the week (Mon, Tue, ...)")
         print("3. Exit")
         
         # Listen for user input here
