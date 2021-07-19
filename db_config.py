@@ -1,6 +1,6 @@
-# This file stores the credentials for connecting to the localhost mysql database server
+# this file stores the credentials for connecting to the localhost mysql database server
 
-# Need to update the USER and PASSWORD variables based on the mysql db configuration
+# need to update the USER and PASSWORD variables based on the mysql db configuration
 
 HOST = "localhost"
 USER = "root"
